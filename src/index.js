@@ -48,7 +48,6 @@ const imgBaner4 = document.querySelector('.js-img-4');
 
 hero.addEventListener('mousemove', throttle(onHeroMove, 60));
 function onHeroMove(evt) {
-  console.dir(evt);
   let xHero = evt.clientX;
   let yHero = evt.clientY;
   men.style.transform =

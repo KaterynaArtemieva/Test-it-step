@@ -30,6 +30,9 @@
 }
 .about-wrap {
   position: relative;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
 }
 .video-img {
   margin: 0 auto;
@@ -44,8 +47,10 @@
   }
 }
 .video-text {
-  transform: translateX(56px);
+  transform: translateX(-150px);
   @media screen and (min-width: 1400px) {
-    transform: translateX(160px);
+    display: block;
+    margin-top: 16px;
+    transform: translateX(-320px);
   }
 }
