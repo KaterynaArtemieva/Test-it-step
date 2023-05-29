@@ -1,0 +1,30 @@
+.team {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.team-title {
+    font-weight: 700;
+font-size: 48px;
+line-height: calc(58/48);
+color: #1D1D1F;
+margin-bottom: 24px;
+text-align: center;
+}
+.team-text {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.45;
+text-align: center;
+color: #747478;
+margin-bottom: 96px;
+}
+.team-wrap {
+    width: 1296px;
+    display: flex;
+    gap: 25px;
+}
+.team-wrap-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
