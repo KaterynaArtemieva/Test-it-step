@@ -22,14 +22,18 @@
 }
 
 .hero-wrap-2 {
-  width: 571px;
+  max-width: 576px;
 }
 .title {
   font-weight: 700;
-  font-size: 60px;
-  line-height: calc(75 / 60);
+  font-size: 40px;
+  line-height: calc(55 / 40);
   color: var(--white-color);
   margin-bottom: 24px;
+  @media screen and (min-width: 1400px) {
+    font-size: 64px;
+line-height: calc(77/64);
+  }
 }
 .sub-title {
   font-weight: 500;

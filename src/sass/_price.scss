@@ -67,6 +67,7 @@
 
 .price-wrap-4 {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   margin-bottom: 24px;
   @media screen and (min-width: 1400px) {
