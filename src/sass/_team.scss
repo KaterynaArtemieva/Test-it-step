@@ -18,13 +18,29 @@ text-align: center;
 color: #747478;
 margin-bottom: 96px;
 }
+@media screen and (min-width:960px) {
+  .swiper{
+display: none !important;
+}  
+}
+
+@media screen and (max-width:960px){
+    .team-wrap{
+        display: none !important;
+    } 
+}
 .team-wrap {
     width: 1296px;
     display: flex;
     gap: 25px;
+    
 }
 .team-wrap-1{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
