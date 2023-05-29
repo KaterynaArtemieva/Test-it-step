@@ -1,46 +1,54 @@
 .team {
-    padding-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1400px) {
     padding-bottom: 120px;
+  }
 }
 .team-title {
-    font-weight: 700;
-font-size: 48px;
-line-height: calc(58/48);
-color: #1D1D1F;
-margin-bottom: 24px;
-text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: calc(58 / 48);
+  color: #1d1d1f;
+  margin-bottom: 24px;
+  text-align: center;
 }
 .team-text {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.45;
-text-align: center;
-color: #747478;
-margin-bottom: 96px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.45;
+  text-align: center;
+  color: #747478;
+  margin-bottom: 24px;
+  @media screen and (min-width: 1400px) {
+    margin-bottom: 96px;
+  }
 }
-@media screen and (min-width:960px) {
-  .swiper{
-display: none !important;
-}  
+@media screen and (min-width: 1400px) {
+  .swiper {
+    display: none !important;
+  }
 }
 
-@media screen and (max-width:960px){
-    .team-wrap{
-        display: none !important;
-    } 
+@media screen and (max-width: 1400px) {
+  .team-wrap {
+    display: none !important;
+  }
+}
+img {
+  margin: 0 auto !important;
 }
 .team-wrap {
-    width: 1296px;
-    display: flex;
-    gap: 25px;
-    
+  width: 1296px;
+  display: flex;
+  gap: 25px;
 }
-.team-wrap-1{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+.team-wrap-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .swiper {
-    width: 600px;
-    height: 300px;
-  }
+  width: 600px;
+  height: 300px;
+}

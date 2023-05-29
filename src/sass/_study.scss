@@ -1,38 +1,47 @@
 .study {
+  padding: 40px 0;
+  @media screen and (min-width: 1400px) {
     padding: 120px 0;
+  }
 }
 .study-title {
-    text-align: center;
-    font-weight: 700;
-font-size: 48px;
-line-height: calc(58/48);
-color: #1D1D1F;
-margin-bottom: 96px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: calc(58 / 48);
+  color: #1d1d1f;
+  margin-bottom: 28px;
+  @media screen and (min-width: 1400px) {
+    margin-bottom: 96px;
+  }
 }
 .study-list {
-    display: flex;
-    gap: 24px;
-flex-wrap: wrap
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .study-item {
-    width: 416px;
+  width: 416px;
 }
-.study-item:nth-child(-n+3) {
-margin-bottom: 96px;
+@media screen and (min-width: 1400px) {
+  .study-item:nth-child(-n + 3) {
+    margin-bottom: 96px;
+  }
 }
+
 .study-icon {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 .study-sub-title {
-    font-weight: 500;
-font-size: 24px;
-line-height: 1.42;
-color: #1D1D1F;
-margin-bottom: 12px;
-
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.42;
+  color: #1d1d1f;
+  margin-bottom: 12px;
 }
 .study-text {
-    font-size: 18px;
-line-height: 1.56;
-color: #747478;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #747478;
 }

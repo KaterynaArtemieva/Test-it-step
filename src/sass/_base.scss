@@ -40,7 +40,7 @@ img {
 address {
   font-style: normal;
 }
-button{
+button {
   cursor: pointer;
 }
 .visually-hidden {
@@ -58,7 +58,7 @@ button{
 
 .container {
   min-width: 320px;
-  max-width: 414px;
+  max-width: 768px;
 
   padding-left: 15px;
   padding-right: 15px;
@@ -66,15 +66,11 @@ button{
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 1024px) {
-  .container {
-    max-width: 960px;
-  }
-}
-@media screen and (min-width: 1280px) {
+
+@media screen and (min-width: 960px) {
   .container {
     max-width: 1400px;
     padding-left: 48px;
-  padding-right: 48px;
+    padding-right: 48px;
   }
 }
